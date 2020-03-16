@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>SIMPLE CALCULATOR</h1>
+        <div class="form">
+            <div class="calculator-Form">
+                <input type="text" class="inputStyle" id="resultInput" placeholder="0" name="userInput" autocomplete="off" />
+            </div>
+
+                <button id="addition" value="+" onClick="dis('+')" class="buttonStyle">+ </button>
+                <button id="substraction" value="-" onClick="dis('-')" class="buttonStyle">- </button>
+                <button id="multiplication" value="*" onClick="dis('*')" class="buttonStyle">* </button>
+                <button id="division" value="/" onClick="dis('/')" class="buttonStyle">/ </button><br>
+
+                <button id="squared" value="^2" onClick="dis('**2')" class="buttonStyle">^2 </button>
+                <button id="modulo" value="%" onClick="dis('%')" class="buttonStyle">% </button>
+                <button id="equal" onClick="eq()" class="buttonStyle">= </button>
+                <button id="clear" onClick="clearfields()" class="buttonStyle">AC </button>
+            </div>
+
+        <script src="main.js"></script>
+</body>
+</html>
